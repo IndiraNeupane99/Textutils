@@ -64,19 +64,19 @@ export default function TextForm(props) {
             rows="8"
           ></textarea>
         </div>
-                <button className="btn btn-primary mx-1" onClick={handleUpClick}>
+                <button className="btn btn-primary mx-2" onClick={handleUpClick}>
           Convert to Uppercase
         </button>
-        <button className="btn btn-primary mx-1" onClick={handleLoClick}>
+        <button className="btn btn-primary mx-2" onClick={handleLoClick}>
           Convert to Lowercase
         </button>
-        <button className="btn btn-primary mx-1" onClick={handleclearClick}>
+        <button className="btn btn-primary mx-2" onClick={handleclearClick}>
           ClearText
         </button>
-        <button className="btn btn-primary mx-1" onClick={handleCopy}>
+        <button className="btn btn-primary mx-2" onClick={handleCopy}>
           CopyText
         </button>
-        <button className="btn btn-primary mx-1" onClick={handleExtraSpaces}>
+        <button className="btn btn-primary mx-2" onClick={handleExtraSpaces}>
           Remove Extra Spaces
         </button>
       </div>
